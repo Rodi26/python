@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_Rodi26_python_1719225230997-pr-trigger-input-set
+  identifier: Build_Rodi26_python_1719225230997prtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: default_project
+  pipeline:
+    identifier: Build_Rodi26_python_1719225230997
+    properties:
+      ci:
+        codebase:
+          build:
+            type: PR
+            spec:
+              number: <+trigger.prNumber>
